@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-21T19:05:33 NPT" name="Default suite" finished-at="2023-05-21T19:05:52 NPT" duration-ms="19111">
+    <groups>
+    </groups>
+    <test started-at="2023-05-21T19:05:33 NPT" name="Default test" finished-at="2023-05-21T19:05:52 NPT" duration-ms="19111">
+      <class name="blazeDemo.BlazeDemo">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:27 NPT" name="openbrowser" finished-at="2023-05-21T19:05:33 NPT" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="messageBeforeClass()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:33 NPT" name="messageBeforeClass" finished-at="2023-05-21T19:05:33 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeClass -->
+        <test-method is-config="true" signature="messageBeforeTestCases()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:33 NPT" name="messageBeforeTestCases" finished-at="2023-05-21T19:05:33 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCases -->
+        <test-method signature="landingPage()[pri:1, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:33 NPT" name="landingPage" finished-at="2023-05-21T19:05:35 NPT" duration-ms="2440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method is-config="true" signature="messageAfterMethod()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:35 NPT" name="messageAfterMethod" finished-at="2023-05-21T19:05:35 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterMethod -->
+        <test-method signature="reservePage()[pri:2, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:35 NPT" name="reservePage" finished-at="2023-05-21T19:05:36 NPT" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservePage -->
+        <test-method is-config="true" signature="messageBeforeTestCases()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:35 NPT" name="messageBeforeTestCases" finished-at="2023-05-21T19:05:35 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCases -->
+        <test-method is-config="true" signature="messageAfterMethod()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:36 NPT" name="messageAfterMethod" finished-at="2023-05-21T19:05:36 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterMethod -->
+        <test-method is-config="true" signature="messageBeforeTestCases()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:36 NPT" name="messageBeforeTestCases" finished-at="2023-05-21T19:05:36 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCases -->
+        <test-method signature="purchaseTicket()[pri:3, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:36 NPT" name="purchaseTicket" finished-at="2023-05-21T19:05:37 NPT" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseTicket -->
+        <test-method is-config="true" signature="messageAfterMethod()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:37 NPT" name="messageAfterMethod" finished-at="2023-05-21T19:05:37 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterMethod -->
+        <test-method is-config="true" signature="messageBeforeTestCases()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:37 NPT" name="messageBeforeTestCases" finished-at="2023-05-21T19:05:37 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCases -->
+        <test-method signature="registerPage()[pri:4, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:37 NPT" name="registerPage" finished-at="2023-05-21T19:05:43 NPT" duration-ms="6053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPage -->
+        <test-method is-config="true" signature="messageAfterMethod()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:43 NPT" name="messageAfterMethod" finished-at="2023-05-21T19:05:43 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterMethod -->
+        <test-method is-config="true" signature="messageBeforeTestCases()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:43 NPT" name="messageBeforeTestCases" finished-at="2023-05-21T19:05:43 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCases -->
+        <test-method signature="destOfWeek()[pri:5, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:43 NPT" name="destOfWeek" finished-at="2023-05-21T19:05:46 NPT" duration-ms="2399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destOfWeek -->
+        <test-method is-config="true" signature="messageAfterMethod()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:46 NPT" name="messageAfterMethod" finished-at="2023-05-21T19:05:46 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterMethod -->
+        <test-method is-config="true" signature="messageBeforeTestCases()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:46 NPT" name="messageBeforeTestCases" finished-at="2023-05-21T19:05:46 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCases -->
+        <test-method signature="homeLoginPage()[pri:5, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:46 NPT" name="homeLoginPage" finished-at="2023-05-21T19:05:49 NPT" duration-ms="3059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoginPage -->
+        <test-method is-config="true" signature="messageAfterMethod()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:49 NPT" name="messageAfterMethod" finished-at="2023-05-21T19:05:49 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterMethod -->
+        <test-method signature="forgotPassword()[pri:6, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:49 NPT" name="forgotPassword" finished-at="2023-05-21T19:05:50 NPT" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method is-config="true" signature="messageBeforeTestCases()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:49 NPT" name="messageBeforeTestCases" finished-at="2023-05-21T19:05:49 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCases -->
+        <test-method is-config="true" signature="messageAfterMethod()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:50 NPT" name="messageAfterMethod" finished-at="2023-05-21T19:05:50 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterMethod -->
+        <test-method is-config="true" signature="messageBeforeTestCases()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:50 NPT" name="messageBeforeTestCases" finished-at="2023-05-21T19:05:50 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCases -->
+        <test-method signature="resetPassword()[pri:7, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:50 NPT" name="resetPassword" finished-at="2023-05-21T19:05:52 NPT" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method is-config="true" signature="messageAfterMethod()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:52 NPT" name="messageAfterMethod" finished-at="2023-05-21T19:05:52 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterMethod -->
+        <test-method is-config="true" signature="messageAfterClass()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:52 NPT" name="messageAfterClass" finished-at="2023-05-21T19:05:52 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterClass -->
+        <test-method is-config="true" signature="close_window()[pri:0, instance:blazeDemo.BlazeDemo@7f010382]" started-at="2023-05-21T19:05:52 NPT" name="close_window" finished-at="2023-05-21T19:05:52 NPT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_window -->
+      </class> <!-- blazeDemo.BlazeDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

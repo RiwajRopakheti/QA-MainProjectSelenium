@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-23T18:54:45 NPT" name="Default suite" finished-at="2023-05-23T18:57:32 NPT" duration-ms="167465">
+    <groups>
+    </groups>
+    <test started-at="2023-05-23T18:54:45 NPT" name="Default test" finished-at="2023-05-23T18:57:32 NPT" duration-ms="167465">
+      <class name="orangeHR.OrangeHRM">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:54:34 NPT" name="openBrowser" finished-at="2023-05-23T18:54:45 NPT" duration-ms="11376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="messageBeforeClass()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:54:45 NPT" name="messageBeforeClass" finished-at="2023-05-23T18:54:45 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeClass -->
+        <test-method is-config="true" signature="messageBeforeTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:54:45 NPT" name="messageBeforeTestCase" finished-at="2023-05-23T18:54:45 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCase -->
+        <test-method signature="landingPage()[pri:1, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:54:45 NPT" name="landingPage" finished-at="2023-05-23T18:54:50 NPT" duration-ms="4552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method is-config="true" signature="messageAfterTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:54:50 NPT" name="messageAfterTestCase" finished-at="2023-05-23T18:54:50 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterTestCase -->
+        <test-method is-config="true" signature="messageBeforeTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:54:50 NPT" name="messageBeforeTestCase" finished-at="2023-05-23T18:54:50 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCase -->
+        <test-method signature="trialDetails()[pri:2, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:54:50 NPT" name="trialDetails" finished-at="2023-05-23T18:55:38 NPT" duration-ms="48897" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (955, 971)
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-41-generic', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a63c99ce3166e88f544d64ede1cd1647, clickElement {id=BBB3F9C18276FED9EF2D0A555C39EDFB_element_66}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.WnJPNv}, goog:chromeOptions: {debuggerAddress: localhost:46093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:46093/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (a63c99ce3166e88f544d64ede1cd1647)] -> name: action_submitForm]
+Session ID: a63c99ce3166e88f544d64ede1cd1647]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (955, 971)
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-41-generic', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a63c99ce3166e88f544d64ede1cd1647, clickElement {id=BBB3F9C18276FED9EF2D0A555C39EDFB_element_66}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.WnJPNv}, goog:chromeOptions: {debuggerAddress: localhost:46093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:46093/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (a63c99ce3166e88f544d64ede1cd1647)] -> name: action_submitForm]
+Session ID: a63c99ce3166e88f544d64ede1cd1647
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at orangeHR.OrangeHRM.trialDetails(OrangeHRM.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trialDetails -->
+        <test-method is-config="true" signature="messageAfterTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:55:38 NPT" name="messageAfterTestCase" finished-at="2023-05-23T18:55:38 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterTestCase -->
+        <test-method is-config="true" signature="messageBeforeTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:55:38 NPT" name="messageBeforeTestCase" finished-at="2023-05-23T18:55:38 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCase -->
+        <test-method signature="contactSales()[pri:3, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:55:38 NPT" name="contactSales" finished-at="2023-05-23T18:55:41 NPT" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSales -->
+        <test-method is-config="true" signature="messageAfterTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:55:41 NPT" name="messageAfterTestCase" finished-at="2023-05-23T18:55:41 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterTestCase -->
+        <test-method is-config="true" signature="messageBeforeTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:55:41 NPT" name="messageBeforeTestCase" finished-at="2023-05-23T18:55:41 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCase -->
+        <test-method signature="contactDetails()[pri:4, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:55:41 NPT" name="contactDetails" finished-at="2023-05-23T18:56:35 NPT" duration-ms="53738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactDetails -->
+        <test-method is-config="true" signature="messageAfterTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:56:35 NPT" name="messageAfterTestCase" finished-at="2023-05-23T18:56:35 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterTestCase -->
+        <test-method signature="bookFreeDemo()[pri:5, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:56:35 NPT" name="bookFreeDemo" finished-at="2023-05-23T18:56:37 NPT" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFreeDemo -->
+        <test-method is-config="true" signature="messageBeforeTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:56:35 NPT" name="messageBeforeTestCase" finished-at="2023-05-23T18:56:35 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCase -->
+        <test-method is-config="true" signature="messageAfterTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:56:37 NPT" name="messageAfterTestCase" finished-at="2023-05-23T18:56:37 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterTestCase -->
+        <test-method is-config="true" signature="messageBeforeTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:56:37 NPT" name="messageBeforeTestCase" finished-at="2023-05-23T18:56:37 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCase -->
+        <test-method signature="demoForm()[pri:6, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:56:37 NPT" name="demoForm" finished-at="2023-05-23T18:57:29 NPT" duration-ms="51487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoForm -->
+        <test-method is-config="true" signature="messageAfterTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:57:29 NPT" name="messageAfterTestCase" finished-at="2023-05-23T18:57:29 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterTestCase -->
+        <test-method signature="returnHome()[pri:7, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:57:29 NPT" name="returnHome" finished-at="2023-05-23T18:57:32 NPT" duration-ms="3721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHome -->
+        <test-method is-config="true" signature="messageBeforeTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:57:29 NPT" name="messageBeforeTestCase" finished-at="2023-05-23T18:57:29 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBeforeTestCase -->
+        <test-method is-config="true" signature="messageAfterTestCase()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:57:32 NPT" name="messageAfterTestCase" finished-at="2023-05-23T18:57:32 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterTestCase -->
+        <test-method is-config="true" signature="messageAfterClass()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:57:32 NPT" name="messageAfterClass" finished-at="2023-05-23T18:57:32 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterClass -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:orangeHR.OrangeHRM@4313f5bc]" started-at="2023-05-23T18:57:34 NPT" name="closeWindow" finished-at="2023-05-23T18:57:34 NPT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- orangeHR.OrangeHRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
